@@ -11,8 +11,6 @@
 ///   std.debug.print("{s}\n", .{hex.slice()});
 const std = @import("std");
 
-pub fn main(_: std.process.Init) !void {}
-
 /// Standard 8-bit RGBA color.
 /// Alpha is optional — `null` means fully opaque.
 pub const Rgba = struct {
